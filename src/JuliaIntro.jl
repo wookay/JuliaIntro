@@ -5,8 +5,9 @@ module JuliaIntro
 # Pkg.clone("git@github.com:wookay/PageDown.git")
 using PageDown
 
-include("Slide.jl")
-using Slide: pages
+push!(LOAD_PATH, "src")
+import Slide: pages
+
 export page
 export clear
 export @page, @current, @next, @prev, @go, @first, @last, @step, @open
