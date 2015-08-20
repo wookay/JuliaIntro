@@ -1,13 +1,13 @@
 # JuliaIntro
 
-Linux, OSX: [![Build Status](https://api.travis-ci.org/wookay/JuliaIntro.svg?branch=master)](https://travis-ci.org/wookay/JuliaIntro)
-Windows: [![Build status](https://ci.appveyor.com/api/projects/status/2994802kg4s9g4av?svg=true)](https://ci.appveyor.com/project/wookay/JuliaIntro)
-[![Coverage Status](https://coveralls.io/repos/wookay/JuliaIntro/badge.svg?branch=master&service=github)](https://coveralls.io/github/wookay/JuliaIntro?branch=master)
+Linux, OSX: [![Build Status](https://api.travis-ci.org/wookay/JuliaIntro.jl.svg?branch=master)](https://travis-ci.org/wookay/JuliaIntro.jl)
+Windows: [![Build status](https://ci.appveyor.com/api/projects/status/2994802kg4s9g4av?svg=true)](https://ci.appveyor.com/project/wookay/JuliaIntro.jl)
+[![Coverage Status](https://coveralls.io/repos/wookay/JuliaIntro.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/wookay/JuliaIntro.jl?branch=master)
 
 
 ```julia
-~/work/JuliaIntro$ cd src/
-~/work/JuliaIntro/src$ julia
+~/work/JuliaIntro.jl master$ cd src/
+~/work/JuliaIntro.jl/src master$ julia
                _
    _       _ _(_)_     |  A fresh approach to technical computing
   (_)     | (_) (_)    |  Documentation: http://docs.julialang.org
@@ -33,4 +33,5 @@ julia> @next
     ≡≡≡≡≡≡≡
 
   2015-08-20
+
 ```
