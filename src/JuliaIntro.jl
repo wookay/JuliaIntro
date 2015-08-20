@@ -5,6 +5,7 @@ module JuliaIntro
 # Pkg.clone("git@github.com:wookay/PageDown.git")
 using PageDown
 
+println("pwd $(pwd())")
 push!(LOAD_PATH, "src")
 import Slide: pages
 
