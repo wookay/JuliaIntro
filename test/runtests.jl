@@ -1,6 +1,7 @@
 push!(LOAD_PATH, "src")
 
-using JuliaIntro
+using JuliaIntro, Slide
+
 using Base.Test
 
 @test 1 == 1
