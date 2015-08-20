@@ -41,6 +41,9 @@ julia> @first
 julia> @step 3
 3
 
+julia> @page
+1:3:58
+
 julia> @next
 
      JuliaCon
