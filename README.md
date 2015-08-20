@@ -4,6 +4,7 @@ Linux, OSX: [![Build Status](https://api.travis-ci.org/wookay/JuliaIntro.jl.svg?
 Windows: [![Build status](https://ci.appveyor.com/api/projects/status/2994802kg4s9g4av?svg=true)](https://ci.appveyor.com/project/wookay/JuliaIntro.jl)
 [![Coverage Status](https://coveralls.io/repos/wookay/JuliaIntro.jl/badge.svg?branch=master&service=github)](https://coveralls.io/github/wookay/JuliaIntro.jl?branch=master)
 
+* 근본주의자 스타일로 줄리아 소개하기
 
 ```julia
 ~/work/JuliaIntro.jl master$ cd src/
