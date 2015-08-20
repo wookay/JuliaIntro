@@ -34,6 +34,27 @@ julia> @next
 
   2015-08-20
 
+julia> @first
+     module JuliaIntro
+    ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+
+julia> @step 3
+3
+
+julia> @next
+
+     JuliaCon
+    ≡≡≡≡≡≡≡≡≡≡
+
+    •  http://juliacon.org/
+     JuliaCon 2014
+    ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+
+    •  http://juliacon.org/2014/
+     JuliaCon 2015
+    ≡≡≡≡≡≡≡≡≡≡≡≡≡≡≡
+
+    •  http://juliacon.org/2015/
 ```
 
 # 짤 보기
