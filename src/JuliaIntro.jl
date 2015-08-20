@@ -9,6 +9,7 @@ catch
 end
 using PageDown
 
+push!(LOAD_PATH, ".")
 import Slide: pages
 
 export page
