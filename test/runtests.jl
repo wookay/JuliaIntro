@@ -2,6 +2,7 @@ module JuliaIntroTest
 using Base.Test
 
 push!(LOAD_PATH, "src")
+push!(LOAD_PATH, "../src")
 
 using JuliaIntro, Slide
 @assert isdefined(:JuliaIntro)
