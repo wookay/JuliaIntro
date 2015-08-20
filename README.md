@@ -35,3 +35,11 @@ julia> @next
   2015-08-20
 
 ```
+
+# 짤 보기
+ * iTerm2 Build 2.9.20150626 beta http://iterm2.com/downloads.html
+ * Go
+```
+julia> run(`go version`)
+go version go1.4.2 darwin/amd64
+```

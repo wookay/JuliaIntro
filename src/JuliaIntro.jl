@@ -1,7 +1,11 @@
+!(VERSION.minor > 3) && println("Required Julia 0.4")
+
 module JuliaIntro
 
 # Pkg.clone("git@github.com:wookay/PageDown.git")
 using PageDown
+
+include("Slide.jl")
 using Slide: pages
 export page
 export clear
