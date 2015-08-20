@@ -2,7 +2,11 @@
 
 module JuliaIntro
 
-# Pkg.clone("git@github.com:wookay/PageDown.git")
+try
+  Pkg.installed("PageDown")
+catch
+ Pkg.clone("https://github.com/wookay/PageDown.jl")
+end
 using PageDown
 
 import Slide: pages
