@@ -312,6 +312,7 @@ pages = [
     멀() + 멀(0) + 멀(멀)
     # 멀("")
 
+    methods(멀)
     Base.return_types(멀, (Any,))
     Base.return_types(멀, ())
     ```
