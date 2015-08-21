@@ -67,7 +67,7 @@ pages = [
   """
 
     md"""
-    # 책
+    # 책, 튜토리얼, 영상
      - http://julialang.org/learning/
      - 짤 books.png
     """
@@ -183,13 +183,13 @@ pages = [
     """
 
     md"""
-    # Julia Summer of Code 2015
-     - http://julialang.org/jsoc
+    # 논문들
+     - http://julialang.org/publications/
     """
 
     md"""
-    # 논문들
-     - http://julialang.org/publications/
+    # Julia Summer of Code 2015
+     - http://julialang.org/jsoc
     """
 
   md"""
@@ -250,11 +250,11 @@ pages = [
     ```
     """
 
-    #= md"""
+    md"""
     # 유용한 패키지들
      - https://github.com/JuliaOpt/Convex.jl
      - https://github.com/JuliaOpt/JuMP.jl
-    """ =#
+    """
 
   md"""
   # 특징.jl
@@ -311,6 +311,9 @@ pages = [
 
     멀() + 멀(0) + 멀(멀)
     # 멀("")
+
+    Base.return_types(멀, (Any,))
+    Base.return_types(멀, ())
     ```
     """
 
@@ -347,7 +350,6 @@ pages = [
      - type safety
      - abstract, concrete
      - mutable, immutable
-     - invariant, covariant
      - Any, Base.Bottom
      - linear algebra
        - matrix, vector, scalar
@@ -357,6 +359,7 @@ pages = [
      - staged programming
      - parallel computing
     """
+    # - invariant, covariant
 
   md"""
   # 소소한 프로그래머
