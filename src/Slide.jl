@@ -1,7 +1,9 @@
 module Slide
 
-using Base.Markdown
+"Slide"
+Slide
 
+using Base.Markdown
 export pages
 
 pages = [

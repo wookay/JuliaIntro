@@ -1,4 +1,3 @@
-module JuliaIntroTest
 using Base.Test
 
 push!(LOAD_PATH, "src")
@@ -13,6 +12,4 @@ using JuliaIntro, Slide
 
 for slide in Slide.pages
   @test isa(slide, Base.Markdown.MD)
-end
-
 end
