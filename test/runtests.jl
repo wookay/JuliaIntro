@@ -11,4 +11,8 @@ using JuliaIntro, Slide
 @test 1 == 1
 @test 1 == page.start
 
+for slide in Slide.pages
+  @test isa(slide, Base.Markdown.MD)
+end
+
 end

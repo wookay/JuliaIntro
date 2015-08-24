@@ -358,9 +358,10 @@ pages = [
        - dense, sparse
      - meta programming
      - staged programming
-     - parallel computing
     """
     # - invariant, covariant
+    # - parallel tasks, distributed arrays
+    # - stream, pipe, async, sync
 
   md"""
   # 소소한 프로그래머
