@@ -17,7 +17,7 @@ export clear
 export @page, @current, @next, @prev, @go, @first, @last, @step, @open
 
 
-page = Page(1, 1, pages, "IMG"=>"짤")
+page = Page(pages, "IMG"=>"짤")
 
 function __init__()
   Base.Markdown.term(STDOUT, @first)
